@@ -24,6 +24,8 @@ async function gSMTest(info, tab) {
 	let gsmwith_id = await messenger.mailTabs.getSelectedMessages(curMailtab.id);
 	console.debug('gSM with current mailTab id', gsmwith_id);
 
+	let gsm3 = await messenger.mailTabs.getSelectedMessages();
+	console.debug('gSM third call', gsm3);
 
 	//await browser.windows.create({url: "/minimalwindow.html", type: "popup", width: 250, height: 140});
 }
