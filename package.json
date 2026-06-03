@@ -1,8 +1,8 @@
 {
-	"title": "menutest",
-	"name": "menutest",
-	"version": "1.0.1",
-	"description": "menu test",
+	"title": "gSMTest",
+	"name": "gSMTest",
+	"version": "1.0.0",
+	"description": "gSM test",
 	"main": "./content/overlay.js",
 	"author": "l'Abbé Christian-Philippe Chanut (philoux), Christopher Leidigh",
 	"engines": {
