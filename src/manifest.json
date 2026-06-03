@@ -1,6 +1,6 @@
 {
 	"manifest_version": 2,
-	"name": "__MSG_extensionName__",
+	"name": "getSelectedMessagesTest",
 	"description": "getSelectedMessages test",
 	"version": "1.0.0",
 	"author": "Christopher Leidigh",
@@ -13,8 +13,8 @@
 	},
 	"browser_action": {
 		"default_area": "maintoolbar",
-		"default_title":"hw1",
-		"default_label":"hw1lab",
+		"default_title":"gSM",
+		"default_label":"gSM",
 		"default_icon": "ptng.png",
 		"type": "menu"
 	  },
@@ -24,7 +24,12 @@
 
 	},
 "permissions" : [
-    "menus"
+    "menus",
+		"activeTab",
+    "messagesRead",
+    "tabs",
+    "accountsFolders",
+    "accountsRead"
 ],
 	"icons": {
 		"32": "ptng.png"
